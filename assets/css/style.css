@@ -153,12 +153,35 @@ header a {
   main styling starts here
 =================================*/
 
+/* banner styling start  */
 
+.banner {
+  background-color: #3261B9;
+  color: #fff;
+}
 
+.banner-top {
+  padding: 13px 0;
+}
 
+.banner-top .wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
 
+.banner-top h2 {
+  font-size: 26px;
+}
 
+.banner-top-tabs {
+  margin-left: 4.4%;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 48.5%;
+}
 
+/* banner styling end  */
 
 /*=================================
   main styling ends here
