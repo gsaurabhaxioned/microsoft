@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
 });
 
-let play_button = document.querySelector('.play-button'),
+let play_button = document.querySelector('.watch-video'),
 play_video = document.querySelector('.play-video'),
 close_video = document.querySelector('.close-video'),
 vid = document.querySelector('.modal-video'),
