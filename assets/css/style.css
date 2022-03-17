@@ -181,6 +181,78 @@ header a {
   flex-basis: 48.5%;
 }
 
+.banner-bottom {
+  position: relative;
+}
+
+.banner-bottom-tabs {
+  width: 18%;
+  padding: 9px 9px;
+  background: #fff;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.banner-bottom-tabs li {
+  font-size: 14px;
+}
+
+.banner-bottom .wrapper {
+  width: 92%;
+  padding: 33px 0;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+.banner-bottom h3 {
+  margin-top: 67px;
+  margin-left: 8.3%;
+  font-size: 38px;
+}
+
+.banner-bottom p {
+  width: 69%;
+  margin-top: 16px;
+  margin-left: 8.3%;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.banner-bottom span {
+  margin-top: 20px;
+  margin-left: 8.3%;
+  display: block;
+  font-size: 18px;
+}
+
+.banner-bottom button {
+  padding: 10px;
+  margin-top: 25px;
+  margin-left: 8.3%;
+  background: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 17px;
+}
+
+.contact-info {
+  width: 28.7%;
+  padding: 19px 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  box-sizing: border-box;
+}
+
+.contact-info li a {
+  color: #fff;
+  font-size: 18px;
+}
+
 /* banner styling end  */
 
 /*=================================
