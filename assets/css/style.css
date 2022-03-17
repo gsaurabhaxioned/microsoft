@@ -131,6 +131,10 @@ header .wrapper {
   flex-basis: 65.5%;
 }
 
+.menu ul li a {
+  color: #686369;
+}
+
 header ul {
   display: flex;
   justify-content: space-between;
@@ -199,7 +203,7 @@ header a {
 
 .banner-bottom .wrapper {
   width: 92%;
-  padding: 33px 0;
+  padding: 17px 0;
   position: absolute;
   top: 0;
   left: 5%;
@@ -217,6 +221,7 @@ header a {
   margin-left: 8.3%;
   font-size: 24px;
   line-height: 31px;
+  opacity: 0.8;
 }
 
 .banner-bottom span {
@@ -254,6 +259,174 @@ header a {
 }
 
 /* banner styling end  */
+/* what is digital transformation start  */
+
+.what-is-digital-transformation {
+  padding: 102px 0 94px;
+  background-color: #F1F2F6;
+}
+
+.what-is-digital-transformation .wrapper {
+  display: flex;
+}
+
+.transformation-content {
+  flex-basis: 55%;
+}
+
+.what-is-digital-transformation h3 {
+  font-size: 37px;
+  color: #343436;
+}
+
+.what-is-digital-transformation p {
+  width: 94%;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  opacity: 0.9;
+}
+
+.what-is-digital-transformation a {
+  margin-top: 19px;
+  color: #0c70ad;
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.what-is-digital-transformation figure {
+  width: 454px;
+  height: 229px;
+  margin-left: 5.2%;
+}
+
+/* what is digital transformation end  */
+/* how to transform products start  */
+
+.How-to-transform-products {
+  padding: 96px 0 87px;
+}
+
+.How-to-transform-products h3 {
+  color: #343436;
+  font-size: 37px;
+}
+
+.How-to-transform-products span {
+  margin-top: 20px;
+  color: #343436;
+  display: block;
+  font-size: 18px;
+}
+
+.product-transformation-points {
+  margin-top: 19px;
+}
+
+.transformation-point-contents {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 27px 0;
+  display: flex;
+}
+
+.tranformation-point-text {
+  margin-left: 2%;
+}
+
+.tranformation-point-text h4 {
+  color: #343436;
+  font-size: 34px;
+}
+
+.tranformation-point-text span {
+  width: 86%;
+  margin-top: 20px;
+  color: #343436;
+  display: block;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.tranformation-point-text a {
+  margin-top: 23px;
+  color: #0c70ad;
+  font-size: 17px;
+}
+
+.transformation-point-contents figure {
+  margin-left: auto;
+}
+
+/* how to transform product end  */
+/* what is your story start  */
+
+.what-is-your-story {
+  padding: 85px 0;
+  background: #F1F2F6;
+}
+
+.resources {
+  display: block;
+  color: #313234;
+}
+
+.mysurface-story-contents {
+  padding: 32px 0;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+}
+
+.mysurface-story-text {
+  flex-basis: 63%;
+}
+
+.what-is-your-story h3 {
+  color: #343436;
+  font-size: 37px;
+}
+
+.steven {
+  margin-top: 16px;
+  display: block;
+  color: #343436;
+  font-size: 18px;
+}
+
+.mysurface-story-date {
+  margin-top: 24px;
+  display: block;
+  color: #343436;
+}
+
+.mysurface-story-text p {
+  width: 78%;
+  margin-top: 23px;
+  color: #343436;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.mysurface-story-text a {
+  margin-top: 19px;
+  color: #0c70ad;
+}
+
+.what-is-your-story figure {
+  width: 342px;
+  height: 148px;
+}
+
+.all-blog-posts {
+  padding: 17px 19px;
+  margin-top: 86px;
+  background-color: #3460B7;
+  color: #fff;
+}
+
+
+/* what is your story end  */
 
 /*=================================
   main styling ends here
