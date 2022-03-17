@@ -436,11 +436,84 @@ header a {
   footer styling starts here
 =================================*/ 
 
+.footer-top {
+  padding: 14px 0;
+  background: #59545A;
+  color: #fff;
+}
 
+.footer-top .wrapper {
+  display: flex;
+  justify-content: center;
+}
 
+.footer-top .wrapper span {
+  font-size: 15px;
+}
 
+.footer-top .wrapper ul {
+  margin-left: 1.4%;
+  display: flex;
+}
 
+.footer-top .wrapper ul li a {
+  color: #fff;
+}
 
+.footer-bottom {
+  padding: 46px 0;
+}
+
+.footer-bottom .wrapper {
+  width: 90%;
+}
+
+.footer-links {
+  width: 90.6%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links-category ul {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px;
+}
+
+.footer-links-category ul li a {
+  color: #666e73;
+  font-size: 13px;
+}
+
+.footer-title {
+  color: #343436;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.footer-bottom-lower {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang {
+  color: #666e73;
+  font-size: 13px;
+}
+
+.footer-lower-links {
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 47.4%;
+}
+
+.footer-lower-links li a {
+  color: #666e73;
+  font-size: 13px;
+}
 
  /*=================================
   footer styling ends here
