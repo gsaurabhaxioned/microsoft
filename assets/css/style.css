@@ -997,7 +997,7 @@ line-height: 28px;
 
 
 .footer-bottom {
-  padding: 42px 0 22px;
+  padding: 42px 0 20px;
   background-color: #F5F0F6;
 }
 
@@ -1032,7 +1032,7 @@ line-height: 28px;
 }
 
 .footer-links-category ul {
-  margin-top: 14px;
+  margin-top: 17px;
   display: flex;
   flex-direction: column;
   row-gap: 18px;
@@ -1054,13 +1054,13 @@ line-height: 28px;
 
 
 .footer-title {
-  color: #343436;
+  color: #59545A;
   font-size: 17px;
   font-weight: bold;
 }
 
 .footer-bottom-lower {
-  margin-top: 45px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -1403,6 +1403,14 @@ line-height: 28px;
 
   .footer-top .wrapper ul {
     flex-basis: 50%;
+}
+
+.menu ul li a:hover {
+  color: #fff;
+}
+
+.banner-top-tabs li:hover {
+  color: #fff;
 }
 
 }
