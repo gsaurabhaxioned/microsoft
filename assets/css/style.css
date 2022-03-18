@@ -249,11 +249,37 @@ header a {
   margin-left: 4.4%;
   display: flex;
   justify-content: space-between;
-  flex-basis: 48.5%;
+  flex-basis: 51.5%;
+}
+
+.banner-top-tabs li:first-child::after,.banner-top-tabs li:nth-child(2)::after {
+  content: "\f107";
+  margin-left: 4%;
+  font-family: "fontAwesome";
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-top-tabs li:first-child:hover:after,.banner-bottom-tabs li:nth-child(2):hover:after {
+  color: #ffa500;
 }
 
 .banner-top-tabs li {
+  font-size: 18px;
   cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  white-space: nowrap;
+}
+
+.banner-top-tabs li:hover {
+  color: #ffa500;
 }
 
 .banner-bottom {
@@ -262,15 +288,46 @@ header a {
 
 .banner-bottom-tabs {
   width: 18%;
-  padding: 9px 9px;
+  padding: 6px 9px;
   background: #fff;
-  color: #000;
   box-sizing: border-box;
+  white-space: nowrap;
 }
 
 .banner-bottom-tabs li {
   font-size: 16px;
+  color: #666368;
   cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-bottom-tabs li:hover {
+  color: #ffa500;
+}
+
+.banner-bottom-tabs li:first-child::after {
+  content: "\f105 ";
+  margin-left: 26%;
+  font-family: "fontAwesome";
+  font-size: 21px;
+  text-indent: 0;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.banner-bottom-tabs li:first-child:hover:after {
+  color: #ffa500
+}
+
+.banner-bottom-tabs li:last-child {
+  margin-left: 7%;
 }
 
 .banner-bottom .wrapper {
@@ -304,7 +361,7 @@ header a {
 }
 
 .banner-bottom button {
-  padding: 10px;
+  padding: 10px 21px 10px 14px;
   margin-top: 25px;
   margin-left: 8.3%;
   border: 4px solid #fff;
@@ -312,7 +369,7 @@ header a {
   align-items: center;
   background: transparent;
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
   white-space: nowrap;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
@@ -322,15 +379,15 @@ header a {
 }
 
 .banner-bottom button:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .banner-bottom button::before {
   content: "\f144";
-  margin-right: 3%;
+  margin-right: 8%;
   font-family: "fontAwesome";
-  font-size: 52px;
+  font-size: 59px;
   text-indent: 0;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
@@ -439,7 +496,7 @@ header a {
 /* what is digital transformation start  */
 
 .what-is-digital-transformation {
-  padding: 102px 0 94px;
+  padding: 94px 0;
   background-color: #F1F2F6;
 }
 
@@ -458,17 +515,17 @@ header a {
 
 .what-is-digital-transformation p {
   width: 94%;
-  margin-top: 20px;
+  margin-top: 17px;
   font-size: 18px;
   line-height: 27px;
   opacity: 0.9;
 }
 
 .what-is-digital-transformation a {
-  margin-top: 19px;
+  margin-top: 15px;
   color: #0c70ad;
   line-height: 25px;
-  font-size: 17px;
+  font-size: 18px;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
@@ -490,7 +547,7 @@ header a {
 /* how to transform products start  */
 
 .how-to-transform-products {
-  padding: 96px 0 87px;
+  padding: 91px 0 87px;
 }
 
 .how-to-transform-products h3 {
@@ -512,7 +569,7 @@ header a {
 .transformation-point-contents {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
-  padding: 27px 0;
+  padding: 26px 0 36px;
   display: flex;
 }
 
@@ -538,12 +595,17 @@ header a {
   color: #ffa500;
 }
 
+.product-transformation-points .transformation-point-contents:first-child .transformation-point-icon::before {
+  font-size: 97px;
+} 
+
 .product-transformation-points .transformation-point-contents:nth-child(2) .transformation-point-icon::before {
   content: "\f13d";
 } 
 
 .product-transformation-points .transformation-point-contents:nth-child(3) .transformation-point-icon::before {
   content: "\f013";
+  font-size: 65px;
 }
 
 .product-transformation-points .transformation-point-contents:nth-child(4) .transformation-point-icon::before {
@@ -551,7 +613,7 @@ header a {
 }
 
 .transformation-point-text {
-  margin-left: 2%;
+  margin: 1% 0 0 3%;
 }
 
 .transformation-point-text h4 {
@@ -571,7 +633,16 @@ header a {
 .transformation-point-text a {
   margin-top: 23px;
   color: #0c70ad;
-  font-size: 17px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.transformation-point-text a::after {
+
+  content: "\f105";
+  margin-left: 3%;
+  font-family: "fontAwesome";
+  font-size: 19px;
 }
 
 .transformation-point-contents figure {
@@ -590,7 +661,7 @@ header a {
 display: flex;
 align-items: center;
 color: #86878B;
-font-size: 14px;
+font-size: 15px;
 font-weight: bold;
 transition: all ease-in-out 0.5s;
 -webkit-transition: all ease-in-out 0.5s;
@@ -622,7 +693,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .mysurface-story-contents {
-  padding: 32px 0;
+  padding: 33px 0 31px;
   border-top: 1px solid #CCCCCC;
   border-bottom: 1px solid #CCCCCC;
   display: flex;
