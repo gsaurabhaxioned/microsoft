@@ -635,6 +635,15 @@ header a {
   color: #0c70ad;
   font-size: 18px;
   white-space: nowrap;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.transformation-point-text a:hover {
+  color: #ffa500;
 }
 
 .transformation-point-text a::after {
@@ -643,6 +652,15 @@ header a {
   margin-left: 3%;
   font-family: "fontAwesome";
   font-size: 19px;
+  transition: all ease-in-out 0.5s;
+-webkit-transition: all ease-in-out 0.5s;
+-ms-transition: all ease-in-out 0.5s;
+-o-transition: all ease-in-out 0.5s;
+-moz-transition: all ease-in-out 0.5s;
+}
+
+.transformation-point-text a:hover:after {
+  color: #ffa500;
 }
 
 .transformation-point-contents figure {
@@ -693,7 +711,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .mysurface-story-contents {
-  padding: 33px 0 31px;
+  padding: 32px 0;
   border-top: 1px solid #CCCCCC;
   border-bottom: 1px solid #CCCCCC;
   display: flex;
@@ -704,6 +722,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .what-is-your-story h3 {
+  width: 85%;
   color: #343436;
   font-size: 37px;
 }
@@ -719,24 +738,54 @@ transition: all ease-in-out 0.5s;
   margin-top: 24px;
   display: block;
   color: #343436;
+  font-size: 17px;
 }
 
 .mysurface-story-text p {
   width: 78%;
-  margin-top: 23px;
+  margin-top: 20px;
   color: #343436;
   font-size: 18px;
   line-height: 27px;
 }
 
 .mysurface-story-text a {
-  margin-top: 19px;
+  margin-top: 17px;
   color: #0c70ad;
+  font-size: 17px;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  white-space: nowrap;
 }
+
+.mysurface-story-text a:hover {
+  color: #ffa500;
+}
+
+.mysurface-story-text a::after {
+  content: "\f105";
+  margin-left: 11%;
+  font-family: "fontAwesome";
+  font-size: 19px;
+  transition: all ease-in-out 0.5s;
+-webkit-transition: all ease-in-out 0.5s;
+-ms-transition: all ease-in-out 0.5s;
+-o-transition: all ease-in-out 0.5s;
+-moz-transition: all ease-in-out 0.5s;
+}
+
+.mysurface-story-text a:hover:after {
+  color: #ffa500;
+}
+
 
 .what-is-your-story figure {
   width: 342px;
   height: 148px;
+  margin-left: 3.9%;
 }
 
 .view-all-blogs {
@@ -744,7 +793,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .all-blog-posts {
-  padding: 17px 19px;
+  padding: 17px 29px;
   margin-top: 86px;
   background-color: #3460B7;
   color: #fff;
@@ -756,7 +805,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .mystory-bottom-left,.mystory-bottom-right {
-  padding: 74px 0 83px;
+  padding: 70px 0 83px;
   flex-basis: 50%;
   background-color: #3973D6;
 }
@@ -845,6 +894,10 @@ transition: all ease-in-out 0.5s;
   row-gap: 24px; 
 }
 
+.mystory-bottom-right ul {
+  margin:8.3% 3.8%;
+}
+
 .mystory-bottom-left ul a, .mystory-bottom-right ul a {
 font-size: 20px;
 color: #fff;
@@ -862,7 +915,7 @@ line-height: 28px;
 =================================*/ 
 
 .footer-top {
-  padding: 14px 0;
+  padding: 11px 0 17px;
   background: #59545A;
   color: #fff;
 }
@@ -878,11 +931,11 @@ line-height: 28px;
 }
 
 .footer-top .wrapper ul {
-  margin-left: 1.4%;
+  margin-left: 1.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 16%;
+  flex-basis: 17%;
 }
 
 .footer-top .wrapper ul li a {
@@ -925,7 +978,8 @@ line-height: 28px;
 
 
 .footer-bottom {
-  padding: 46px 0;
+  padding: 46px 0 22px;
+  background-color: #F5F0F6;
 }
 
 .footer-bottom .wrapper {
@@ -938,8 +992,28 @@ line-height: 28px;
   justify-content: space-between;
 }
 
+.footer-links-category:nth-child(2) {
+  margin-left: 12%;
+}
+
+.footer-links-category:nth-child(3) {
+  margin-left: 7.5%;
+}
+
+.footer-links-category:nth-child(4) {
+  margin-left: 10%;
+}
+
+.footer-links-category:nth-child(5) {
+  margin-left: 12%;
+}
+
+.footer-links-category:nth-child(6) {
+  margin-left: 11.7%;
+}
+
 .footer-links-category ul {
-  margin-top: 17px;
+  margin-top: 14px;
   display: flex;
   flex-direction: column;
   row-gap: 21px;
@@ -991,9 +1065,9 @@ line-height: 28px;
 
 .lang::before {
   content: "\f0ac";
-  margin-right: 5%;
+  margin-right: 6%;
   font-family: "fontAwesome";
-  font-size: 25px;
+  font-size: 26px;
   transition: all ease-in-out 0.5s;
   -webkit-transition: all ease-in-out 0.5s;
   -ms-transition: all ease-in-out 0.5s;
@@ -1077,6 +1151,11 @@ line-height: 28px;
   .footer-lower-links li a {
     font-size: 10px;
   }
+
+  .footer-links-category:nth-child(2),.footer-links-category:nth-child(3),.footer-links-category:nth-child(4),.footer-links-category:nth-child(5),.footer-links-category:nth-child(6) {
+    margin-left: 0;
+  }
+  
 }
 
 /*media query for 1024px starts here*/
