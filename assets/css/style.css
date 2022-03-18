@@ -461,6 +461,15 @@ header a {
   color: #fff;
   font-size: 20px;
   white-space: nowrap;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.contact-info li a:hover {
+  color: #ffa500;
 }
 
 .contact-info li:nth-child(2) {
@@ -797,6 +806,16 @@ transition: all ease-in-out 0.5s;
   margin-top: 86px;
   background-color: #3460B7;
   color: #fff;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+}
+
+.all-blog-posts:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .mystory-bottom {
@@ -830,7 +849,7 @@ transition: all ease-in-out 0.5s;
 
 .mystory-bottom-left ul li a::before {
   content: "\f019";
-  margin-right: 2%;
+  margin-right: 5%;
   font-family: "fontAwesome";
   font-size: 21px;
   text-indent: 0;
@@ -847,7 +866,7 @@ transition: all ease-in-out 0.5s;
 
 .mystory-bottom-left ul li:nth-child(3) a::before {
   content: "\f104";
-  margin-right: 3%;
+  margin-right: 6%;
   font-size: 44px;
 }
 
@@ -887,7 +906,7 @@ transition: all ease-in-out 0.5s;
 }
 
 .mystory-bottom-left ul , .mystory-bottom-right ul {
-  width: 63%;
+  width: 64%;
   margin-left: 17.1%;
   display: flex;
   flex-direction: column;
@@ -915,7 +934,7 @@ line-height: 28px;
 =================================*/ 
 
 .footer-top {
-  padding: 11px 0 17px;
+  padding: 12px 0 22px;
   background: #59545A;
   color: #fff;
 }
@@ -978,7 +997,7 @@ line-height: 28px;
 
 
 .footer-bottom {
-  padding: 46px 0 22px;
+  padding: 42px 0 22px;
   background-color: #F5F0F6;
 }
 
@@ -1016,7 +1035,7 @@ line-height: 28px;
   margin-top: 14px;
   display: flex;
   flex-direction: column;
-  row-gap: 21px;
+  row-gap: 18px;
 }
 
 .footer-links-category ul li a {
@@ -1108,6 +1127,11 @@ line-height: 28px;
 
 /*media query for 1440px starts here*/
 @media only screen and (max-width: 1440px) {
+
+  header a {
+    font-size: 17px;
+  }
+
   .banner-bottom figure {
     width: auto;
   }
@@ -1137,6 +1161,10 @@ line-height: 28px;
 
   .banner-top-tabs {
     flex-basis: 65%;
+  }
+
+  .banner-bottom-tabs {
+    width: 26%;
   }
 
   .footer-top .wrapper ul  {
@@ -1170,7 +1198,7 @@ line-height: 28px;
   }
 
 .banner-top-tabs {
-  flex-basis: 55%;
+  flex-basis: 75%;
 }
 
 .banner-top-tabs li {
@@ -1217,8 +1245,12 @@ line-height: 28px;
     font-size: 15px;
   }
 
+  .banner-top-tabs {
+    flex-basis: 90%;
+  }
+
   .banner-top-tabs li {
-    font-size: 14px;
+    font-size: 12px;
   }
   
 .menu {
@@ -1282,6 +1314,19 @@ line-height: 28px;
   margin-top: 20px;
 }
 
+.what-is-your-story figure {
+  width: auto;
+  margin-left: auto;
+}
+
+.banner-bottom-tabs {
+  width: 28%;
+}
+
+.banner-bottom-tabs {
+  text-align: center;
+}
+
 }
 
 /*media query for 768px starts here*/
@@ -1292,7 +1337,7 @@ line-height: 28px;
   }
 
   .banner-bottom-tabs {
-    width: 28%;
+    white-space: pre-wrap;
   }
 
   .contact-info {
@@ -1316,11 +1361,70 @@ line-height: 28px;
     row-gap: 10px;
   }
 
-  .ham {
-    display: block;
-    margin-right: auto;
+  .menu ul li a {
+    color: #fff;
   }
 
+  .ham {
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+  }
 
+  .banner-bottom-tabs li:first-child::after {
+    font-size: 18px;
+  }
+
+  .banner-bottom-tabs li:last-child {
+    margin-left: 0;
+  }
+
+  .banner-bottom-tabs li:last-child {
+    font-size: 10px;
+  }
+
+  .banner-top h2 {
+    font-size: 19px;
+  }
+
+  .banner-top-tabs {
+    margin-left: auto;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .banner-bottom figure {
+    height: 681px;
+  }
+
+  .mystory-bottom-left ul {
+    margin-left: 0;
+  }
+
+  .footer-top .wrapper ul {
+    flex-basis: 50%;
+}
+
+}
+
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 480px) {
+
+  .banner-bottom figure {
+    height: 800px;
+  }  
+
+  .footer-top .wrapper ul {
+    flex-basis: 50%;
+  }
+
+  .footer-lower-links li a {
+    font-size: 6px;
+}
+
+.mystory-bottom-left ul,.mystory-bottom-right ul {
+  width: 100%;
+}
 
 }
