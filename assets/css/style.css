@@ -269,7 +269,7 @@ header a {
 }
 
 .banner-bottom-tabs li {
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -391,20 +391,23 @@ header a {
 
 .contact-info {
   width: 28.7%;
-  padding: 19px 14px;
+  padding: 16px 14px 20px;
   position: absolute;
   top: 0;
   right: 0;
   display: flex;
-  justify-content: space-between;
   background-color: #000;
   box-sizing: border-box;
 }
 
 .contact-info li a {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   white-space: nowrap;
+}
+
+.contact-info li:nth-child(2) {
+  margin-left: 11%;
 }
 
 .contact-info li a::before {
